@@ -51,10 +51,8 @@ pnpm dev          # http://localhost:3000
 - **`docs/ROADMAP.md`** — all 20 phases + speedrun milestones + per-phase Definition of Done.
 - **`docs/`** — architecture, tech stack, data model, design system, security, testing, workflow.
 - **`docs/phases/`** — detailed specs for the first phases (0–4).
-- **`claude-config/`** — Claude Code commands (`/plan-phase`, `/build-phase`, `/verify-phase`,
-  `/ship-phase`, `/design-review`) and specialized subagents.
-  **Rename this folder to `.claude/` after cloning** (`mv claude-config .claude`); see
-  `claude-config/README.md`.
+- **`.claude/`** — Claude Code commands (`/plan-phase`, `/build-phase`, `/verify-phase`,
+  `/ship-phase`, `/design-review`) and specialized subagents; see `.claude/README.md`.
 
 ## Building with Claude Code
 

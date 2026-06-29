@@ -1,17 +1,7 @@
-# Claude Code tooling — rename this folder to `.claude/`
+# Claude Code tooling
 
 This folder contains the Claude Code configuration for the project: project settings, custom slash
 commands, and specialized subagents.
-
-**One step before you use it:** rename `claude-config/` to `.claude/` at the repo root.
-
-```bash
-# from the repo root
-mv claude-config .claude
-```
-
-(It's staged under a normal name because the environment that generated this kit couldn't write to a
-`.claude/` path directly. The contents are final — only the folder name needs changing.)
 
 ## What's inside
 
@@ -32,4 +22,4 @@ mv claude-config .claude
     └── design-reviewer.md
 ```
 
-After renaming, open the repo in Claude Code and run `/plan-phase 0`.
+Open the repo in Claude Code and run `/plan-phase 0`.
